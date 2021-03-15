@@ -13,6 +13,12 @@ import java.util.ArrayList;
 
 // @react-native-community/netinfo
 import com.reactnativecommunity.netinfo.NetInfoPackage;
+// appcenter
+import com.microsoft.appcenter.reactnative.appcenter.AppCenterReactNativePackage;
+// appcenter-analytics
+import com.microsoft.appcenter.reactnative.analytics.AppCenterReactNativeAnalyticsPackage;
+// appcenter-crashes
+import com.microsoft.appcenter.reactnative.crashes.AppCenterReactNativeCrashesPackage;
 
 public class PackageList {
   private Application application;
@@ -58,7 +64,10 @@ public class PackageList {
   public ArrayList<ReactPackage> getPackages() {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
-      new NetInfoPackage()
+      new NetInfoPackage(),
+      new AppCenterReactNativePackage(getApplication()),
+      new AppCenterReactNativeAnalyticsPackage(getApplication(), getResources().getString(com.pocpusher.R.string.appCenterAnalytics_whenToEnableAnalytics)),
+      new AppCenterReactNativeCrashesPackage(getApplication(), getResources().getString(com.pocpusher.R.string.appCenterCrashes_whenToSendCrashes))
     ));
   }
 }

@@ -11,6 +11,9 @@
   },
   "dependencies": {
     "@react-native-community/netinfo": "^6.0.0",
+    "appcenter": "4.0.2",
+    "appcenter-analytics": "4.0.2",
+    "appcenter-crashes": "4.0.2",
     "pusher-js": "^7.0.3",
     "react": "17.0.1",
     "react-native": "0.64.0",
