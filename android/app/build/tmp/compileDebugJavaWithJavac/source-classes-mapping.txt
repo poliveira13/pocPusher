@@ -1,0 +1,14 @@
+com/pocpusher/MainApplication.java
+ com.pocpusher.MainApplication
+ com.pocpusher.MainApplication$1
+com/pocpusher/ReactNativeFlipper.java
+ com.pocpusher.ReactNativeFlipper
+ com.pocpusher.ReactNativeFlipper$1
+ com.pocpusher.ReactNativeFlipper$2
+ com.pocpusher.ReactNativeFlipper$2$1
+com/pocpusher/BuildConfig.java
+ com.pocpusher.BuildConfig
+com/pocpusher/MainActivity.java
+ com.pocpusher.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

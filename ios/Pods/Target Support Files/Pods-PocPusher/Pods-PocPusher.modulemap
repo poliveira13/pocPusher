@@ -1,0 +1,6 @@
+module Pods_PocPusher {
+  umbrella header "Pods-PocPusher-umbrella.h"
+
+  export *
+  module * { export * }
+}
