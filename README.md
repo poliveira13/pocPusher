@@ -1,33 +1,38 @@
 # Poc Pusher
 
+## Pusher 
+
+Bi-directional hosted APIs that are flexible, scalable and easy to use. We create and maintain complex infrastructure so you can build the realtime features your users need, fast.
+
 
 ### React Native
--> Yarn (para instalar das libs android)
--> cd ios -> pod install (para instalar as libs no ios)
+-> Yarn (to install libs for android)
+-> cd ios -> pod install (to install libs for ios)
 
--> Para buildar (dev)
+-> Run
 ```bash
 $ yarn start
 ```
 
--> Emulador Ios
+-> Emulator Ios
 ```bash
 $ yarn ios
 ```
  OU
  
--> Emulador Android
+-> Emulator Android
 ```bash
 $ yarn android
 ```
 
-### Para Rodar o backend
+### Run  backend
 
-Abra o link a seguir
+#### Open this link:
 -> https://colab.research.google.com/drive/1QR1u2DUixUPyG_d1fvbULHRdUFPSzUMe?usp=sharing
--> Clique no play : pip line (para fazer a instalaçäo da mesma).
--> Depois clique no play a baixo para rodar o back end.
--> PS: onde está escrito message vc pode ir mudando a mensagem que aparecerá no mobile.
--> PS: Eu coloquei para ele 'escutar' a açäo apenas quando manda clicar no play novamente (se quiser pode mudar a mensagem). Pois quando fora do clico de vida ele estava acumulando todas as mensagens anteriores.
+
+-> Click  play : pip line .
+-> Then click on the play button below to rotate the back end.
+-> PS: where it is written message you can go changing the message that will appear on the mobile.
+-> PS: I put him to 'listen' to the action only when he says to click on play again (if you want you can change the message). For when he was out of life, he was accumulating all the previous messages.
 
 
