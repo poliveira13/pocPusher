@@ -4,6 +4,9 @@
 
 Bi-directional hosted APIs that are flexible, scalable and easy to use. We create and maintain complex infrastructure so you can build the realtime features your users need, fast.
 
+### Read more at:
+https://pusher.com/
+
 
 ### React Native
 -> Yarn (to install libs for android)
