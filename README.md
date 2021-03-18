@@ -18,7 +18,7 @@ $ yarn start
 ```bash
 $ yarn ios
 ```
- OU
+ OR
  
 -> Emulator Android
 ```bash
@@ -29,10 +29,13 @@ $ yarn android
 
 #### Open this link:
 -> https://colab.research.google.com/drive/1QR1u2DUixUPyG_d1fvbULHRdUFPSzUMe?usp=sharing
-
+<br/>
 -> Click  play : pip line .
+<br/>
 -> Then click on the play button below to rotate the back end.
+<br/>
 -> PS: where it is written message you can go changing the message that will appear on the mobile.
+<br/>
 -> PS: I put him to 'listen' to the action only when he says to click on play again (if you want you can change the message). For when he was out of life, he was accumulating all the previous messages.
 
 
